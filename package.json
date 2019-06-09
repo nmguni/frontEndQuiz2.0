@@ -7,13 +7,16 @@
     "build": "gulp",
     "css": "gulp scss",
     "js": "gulp js",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/nmguni.github.io/frontEndQuiz2.0",
   "dependencies": {
     "browser-sync": "^2.26.3",
+    "gh-pages": "^2.0.1",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
